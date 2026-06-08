@@ -16,4 +16,4 @@ Ejercicio 1: Invertir un string utilizando una pila
 
 Captura del codigo: 
 
-![Ejercicio1](<src/Assets/Captura de pantalla 2026-06-02 183944.png>)
+![alt text](<src/Assets/Captura de pantalla 2026-06-08 085830.png>)
