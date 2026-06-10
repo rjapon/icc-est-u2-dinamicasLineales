@@ -48,9 +48,8 @@ public boolean esPalindromo(String texto) {
         return texto.equals(invertido);
 }
 
+```
 
 ## Captura de la salida en consola:
 
 ![Captura de la salida en consola E2](<src/Assets/Captura de pantalla 2026-06-10 081224.png>)
-
-```
