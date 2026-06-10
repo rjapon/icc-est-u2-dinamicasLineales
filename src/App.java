@@ -7,15 +7,33 @@ import java.util.Stack;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        runLinkedList();
-        runQueue();
-        runStack();
+        //runLinkedList();
+        //runQueue();
+        //runStack();
 
+        System.out.println();
+        System.out.println("Ejercicio 1");
         Ejercicio1 ejercicio1 = new Ejercicio1();
         String texto = "COMPUTACION";
+
         String invertido = ejercicio1.invertString(texto);
         System.out.println("Texto original: " + texto);
         System.out.println("Texto invertido: " + invertido);
+
+        System.out.println();
+        System.out.println("Ejercicio 2");
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+        String palabra3 = "anilina";
+        String palabra4 = "reconocer";
+        String palabra5 = "hola";   
+
+        System.out.println(ejercicio2.esPalindromo(palabra1));
+        System.out.println(ejercicio2.esPalindromo(palabra2));
+        System.out.println(ejercicio2.esPalindromo(palabra3));
+        System.out.println(ejercicio2.esPalindromo(palabra4));
+        System.out.println(ejercicio2.esPalindromo(palabra5));
 
     }
 
