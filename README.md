@@ -28,18 +28,6 @@ Ejercicio 1: Invertir un string utilizando una pila
 
 **Descripción:** Se realizo la practica de para verificar si una palabra es palindromo o no, se utilizo el mismo metodo de invertir la palabra pero se comparo con la original para verificar si es un palindromo o no.
 
-.......
-
-## Captura del codigo de implementacion del ejercicio 2:
-
-![Captura de codigo de implementacion E2](<src/Assets/Captura de pantalla 2026-06-10 081144.png>)
-
-## Captura de la salida en consola:
-
-![Captura de la salida en consola E2](<src/Assets/Captura de pantalla 2026-06-10 081224.png>)
-
-
-
 ### Método implementado
 
 ```java
@@ -59,4 +47,10 @@ public boolean esPalindromo(String texto) {
 
         return texto.equals(invertido);
 }
+
+
+## Captura de la salida en consola:
+
+![Captura de la salida en consola E2](<src/Assets/Captura de pantalla 2026-06-10 081224.png>)
+
 ```
